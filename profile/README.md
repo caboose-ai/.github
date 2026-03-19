@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/jv2DJ6jv/Chat-GPT-Image-Mar-18-2026-03-42-11-AM.png" alt="caboose-mcp logo" width="180" />
+  <img src="logo.png" alt="caboose-mcp logo" width="180" />
 </p>
 
 <h1 align="center">caboose-mcp</h1>
