@@ -8,7 +8,7 @@
   },
   "greetings": {
     "greeting": "🚀 Ready to code!",
-    "sign_off": "✨ Generated with Claude Code\n\n🤖 Co-Authored-By: Claude Haiku <noreply@anthropic.com>"
+    "sign_off": "✨ Generated with Claude Code"
   },
   "responses": {
     "success_emoji": "✅",

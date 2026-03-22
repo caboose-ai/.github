@@ -26,7 +26,7 @@ Your custom persona configuration. Create this at:
 
 ### `persona` — Core Settings
 
-```json
+```jsonc
 {
   "persona": {
     "name": "Claude Code ✨",
@@ -59,7 +59,7 @@ Your custom persona configuration. Create this at:
 
 ### `responses` — Reaction Styles
 
-```json
+```jsonc
 {
   "responses": {
     "success_emoji": "✅",

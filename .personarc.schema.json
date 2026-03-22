@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft-07/schema#",
   "title": "Claude Code Persona Configuration",
   "description": "Configure Claude Code's persona, tone, and emoji usage. This schema is designed to work with MEML (Emoji Markup Language) for future integration.",
   "type": "object",
@@ -25,11 +25,13 @@
         },
         "tone": {
           "type": "string",
+          "enum": ["professional", "casual", "playful", "technical", "friendly"],
           "description": "Communication tone (professional, casual, playful, technical, friendly)",
           "default": "professional"
         },
         "style": {
           "type": "string",
+          "enum": ["terse", "concise", "verbose", "detailed", "academic"],
           "description": "Communication style (terse, concise, verbose, detailed, academic)",
           "default": "concise"
         }
@@ -76,10 +78,12 @@
         },
         "success_style": {
           "type": "string",
+          "enum": ["exuberant", "understated", "technical", "playful"],
           "description": "How to celebrate wins (exuberant, understated, technical, playful)"
         },
         "error_style": {
           "type": "string",
+          "enum": ["detailed", "brief", "supportive", "technical"],
           "description": "How to handle errors (detailed, brief, supportive, technical)"
         }
       }
@@ -120,13 +124,47 @@
           "default": false
         },
         "meml_file": {
-          "type": "string",
+          "type": ["string", "null"],
           "description": "Path to MEML persona definition file"
         },
         "auto_reload": {
           "type": "boolean",
           "description": "Automatically reload when MEML file changes",
           "default": false
+        }
+      }
+    },
+    "emoji_mappings": {
+      "type": "object",
+      "description": "Custom emoji assignments for various UI elements",
+      "properties": {
+        "section_headers": {
+          "type": "string",
+          "description": "Space-separated emojis to cycle through for section headers"
+        },
+        "status_pending": {
+          "type": "string",
+          "description": "Emoji for pending status",
+          "default": "🟡"
+        },
+        "status_active": {
+          "type": "string",
+          "description": "Emoji for active status",
+          "default": "🔵"
+        },
+        "status_completed": {
+          "type": "string",
+          "description": "Emoji for completed status",
+          "default": "🟢"
+        },
+        "status_failed": {
+          "type": "string",
+          "description": "Emoji for failed status",
+          "default": "🔴"
+        },
+        "process_steps": {
+          "type": "string",
+          "description": "Space-separated emojis for numbered process steps"
         }
       }
     }
