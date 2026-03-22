@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Claude Code Persona Configuration",
+  "description": "Configure Claude Code's persona, tone, and emoji usage. This schema is designed to work with MEML (Emoji Markup Language) for future integration.",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Configuration format version",
+      "default": "1.0"
+    },
+    "persona": {
+      "type": "object",
+      "description": "Core persona configuration",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Persona display name (e.g., 'Claude Code', 'Claude Productive', 'Claude Emojis')"
+        },
+        "emoji_level": {
+          "type": "string",
+          "enum": ["none", "minimal", "moderate", "heavy"],
+          "description": "How much emoji to use in responses",
+          "default": "moderate"
+        },
+        "tone": {
+          "type": "string",
+          "description": "Communication tone (professional, casual, playful, technical, friendly)",
+          "default": "professional"
+        },
+        "style": {
+          "type": "string",
+          "description": "Communication style (terse, concise, verbose, detailed, academic)",
+          "default": "concise"
+        }
+      },
+      "required": ["name"]
+    },
+    "greetings": {
+      "type": "object",
+      "description": "Greeting and sign-off messages",
+      "properties": {
+        "greeting": {
+          "type": "string",
+          "description": "Initial greeting message"
+        },
+        "sign_off": {
+          "type": "string",
+          "description": "Message sign-off format"
+        }
+      }
+    },
+    "responses": {
+      "type": "object",
+      "description": "Response style configurations",
+      "properties": {
+        "success_emoji": {
+          "type": "string",
+          "description": "Emoji to use for success messages",
+          "default": "✅"
+        },
+        "error_emoji": {
+          "type": "string",
+          "description": "Emoji to use for error messages",
+          "default": "❌"
+        },
+        "warning_emoji": {
+          "type": "string",
+          "description": "Emoji to use for warnings",
+          "default": "⚠️"
+        },
+        "info_emoji": {
+          "type": "string",
+          "description": "Emoji to use for info messages",
+          "default": "ℹ️"
+        },
+        "success_style": {
+          "type": "string",
+          "description": "How to celebrate wins (exuberant, understated, technical, playful)"
+        },
+        "error_style": {
+          "type": "string",
+          "description": "How to handle errors (detailed, brief, supportive, technical)"
+        }
+      }
+    },
+    "features": {
+      "type": "object",
+      "description": "Feature toggles",
+      "properties": {
+        "use_markdown_headers": {
+          "type": "boolean",
+          "description": "Use markdown headers with emojis",
+          "default": true
+        },
+        "use_status_indicators": {
+          "type": "boolean",
+          "description": "Show status indicators (✅ 🟡 🔴 etc)",
+          "default": true
+        },
+        "use_section_dividers": {
+          "type": "boolean",
+          "description": "Use visual section dividers",
+          "default": true
+        },
+        "use_todo_lists": {
+          "type": "boolean",
+          "description": "Use checkboxes and todo tracking",
+          "default": true
+        }
+      }
+    },
+    "meml_integration": {
+      "type": "object",
+      "description": "MEML (Emoji Markup Language) integration hooks for future use",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Enable MEML-based persona configuration",
+          "default": false
+        },
+        "meml_file": {
+          "type": "string",
+          "description": "Path to MEML persona definition file"
+        },
+        "auto_reload": {
+          "type": "boolean",
+          "description": "Automatically reload when MEML file changes",
+          "default": false
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}
