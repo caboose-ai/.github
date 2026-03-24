@@ -1,1 +1,31 @@
-HEllo World!
+# caboose-mcp Organization
+
+Welcome to the caboose-mcp organization. This is the central repository for organization-level configuration and documentation.
+
+## Repository Status
+
+| Repo | PRs | Last Build | Last Deploy | Status |
+|------|-----|-----------|------------|--------|
+| [fafb](https://github.com/caboose-mcp/fafb) | None | Docker (in progress) | Deploy Bots ✅ | 🟡 In Progress |
+| [ui](https://github.com/caboose-mcp/ui) | 1 open | CI ✅ | N/A | 🟢 Ready |
+| [meml](https://github.com/caboose-mcp/meml) | None | No runs | N/A | ⚪ Idle |
+| [extensions](https://github.com/caboose-mcp/extensions) | 2 open | Code review ✅ | N/A | 🟡 Active |
+| [app](https://github.com/caboose-mcp/app) (private) | None | Build failed ❌ | N/A | 🔴 Blocked |
+| [WIP] [extensions](https://github.com/caboose-mcp/extensions) | 2 open | Code review ✅ | N/A | 🟡 Testing |
+| [WIP] [app](https://github.com/caboose-mcp/app) (private) | None | Build failed ❌ | N/A | 🔴 Testing |
+
+### Open PRs
+
+- **ui**: [fix: remove all Auth Portal and Changelog references](https://github.com/caboose-mcp/ui/pull/29)
+- **extensions**: [fix(vscode-fafb): address PR review — race condition, SSE state, UX, type safety, lint, docs](https://github.com/caboose-mcp/extensions/pull/2)
+- **extensions**: [feat: add vscode-fafb VS Code extension](https://github.com/caboose-mcp/extensions/pull/1)
+
+### Action Items
+
+- [ ] Monitor fafb Docker build completion
+- [ ] Review and merge ui PR #29
+- [ ] Review and test extensions PRs (not fully tested yet)
+- [ ] Fix app APK build failures (private repo)
+- [ ] Set up CI workflows for meml
+
+> Last updated: 2026-03-24
