@@ -12,12 +12,19 @@
 
 ## 📊 Status Dashboard
 
-| Repository | Status | Last Push | Description |
-|-----------|--------|-----------|-------------|
-| **fafb** | [![CI](https://github.com/caboose-mcp/fafb/actions/workflows/ci.yml/badge.svg)](https://github.com/caboose-mcp/fafb/actions) | [2h ago](https://github.com/caboose-mcp/fafb) | Go MCP server + monorepo |
-| **ui** | [![CI](https://github.com/caboose-mcp/ui/actions/workflows/ci.yml/badge.svg)](https://github.com/caboose-mcp/ui/actions) | [1d ago](https://github.com/caboose-mcp/ui) | React frontend + deploy |
-| **extensions** | [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/caboose-mcp/extensions) | [2h ago](https://github.com/caboose-mcp/extensions) | VS Code extensions |
-| **meml** | [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/caboose-mcp/meml) | [5d ago](https://github.com/caboose-mcp/meml) | Emoji Markup Language |
+| Repository | PRs | Last Build | Last Deploy | Status |
+|-----------|-----|-----------|------------|--------|
+| [**fafb**](https://github.com/caboose-mcp/fafb) | None | Docker (in progress) | Deploy Bots ✅ | 🟡 In Progress |
+| [**ui**](https://github.com/caboose-mcp/ui) | [1 open](https://github.com/caboose-mcp/ui/pulls) | CI ✅ | N/A | 🟢 Ready |
+| [**meml**](https://github.com/caboose-mcp/meml) | None | No runs | N/A | ⚪ Idle |
+| [**extensions**](https://github.com/caboose-mcp/extensions) | [2 open](https://github.com/caboose-mcp/extensions/pulls) | Code review ✅ | N/A | 🟡 WIP Testing |
+| [**app**](https://github.com/caboose-mcp/app) (private) | None | Build failed ❌ | N/A | 🔴 WIP Testing |
+
+### 📋 Open PRs
+
+- **ui**: [fix: remove all Auth Portal and Changelog references](https://github.com/caboose-mcp/ui/pull/29)
+- **extensions**: [fix(vscode-fafb): address PR review — race condition, SSE state, UX, type safety, lint, docs](https://github.com/caboose-mcp/extensions/pull/2)
+- **extensions**: [feat: add vscode-fafb VS Code extension](https://github.com/caboose-mcp/extensions/pull/1)
 
 ### 🔗 Quick Links
 
