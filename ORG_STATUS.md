@@ -6,6 +6,7 @@
 
 | Repo | PRs | Last Build | Last Deploy | Status |
 |------|-----|-----------|------------|--------|
+| [mcp-server](https://github.com/caboose-mcp/mcp-server) | None | No runs | N/A | ⚪ New |
 | [fafb](https://github.com/caboose-mcp/fafb) | None | Security Scan ✅ | Deploy Bots ✅ | 🟢 Active |
 | [ui](https://github.com/caboose-mcp/ui) | 1 open | CI ✅ | N/A | 🟢 Ready |
 | [waldo](https://github.com/caboose-mcp/waldo) | None | CI ✅ | N/A | 🟢 Active |
@@ -16,6 +17,10 @@
 ---
 
 ## Detailed Status
+
+### mcp-server
+- **Open PRs**: None
+- **Last Build**: No workflow runs
 
 ### waldo
 - **Open PRs**: None

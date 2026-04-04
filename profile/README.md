@@ -14,6 +14,7 @@
 
 | Repository | PRs | Last Build | Last Deploy | Status |
 |-----------|-----|-----------|------------|--------|
+| [**mcp-server**](https://github.com/caboose-mcp/mcp-server) | None | No runs | N/A | ⚪ New |
 | [**fafb**](https://github.com/caboose-mcp/fafb) | None | Security Scan ✅ | Deploy Bots ✅ | 🟢 Active |
 | [**ui**](https://github.com/caboose-mcp/ui) | [1 open](https://github.com/caboose-mcp/ui/pulls) | CI ✅ | N/A | 🟢 Ready |
 | [**waldo**](https://github.com/caboose-mcp/waldo) | None | CI ✅ | N/A | 🟢 Active |
@@ -34,6 +35,9 @@
 ---
 
 ## 📦 Projects
+
+### [🔧 mcp-server](https://github.com/caboose-mcp/mcp-server)
+MCP server implementation in Go.
 
 ### [🔧 fafb](https://github.com/caboose-mcp/fafb)
 The caboose-mcp monorepo. Contains the core MCP server (Go 1.24) and accompanying tools. Node packages include n8n workflows.
