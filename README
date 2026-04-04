@@ -4,13 +4,23 @@ Welcome to the caboose-mcp organization. This is the central repository for orga
 
 ## Repository Status
 
-| Repo | PRs | Last Build | Status |
-|------|-----|-----------|--------|
-| [waldo](https://github.com/caboose-mcp/waldo) | None | CI ✅ | 🟢 Active |
-| [meml](https://github.com/caboose-mcp/meml) | None | No runs | ⚪ Idle |
+| Repo | PRs | Last Build | Last Deploy | Status |
+|------|-----|-----------|------------|--------|
+| [fafb](https://github.com/caboose-mcp/fafb) | None | Security Scan ✅ | Deploy Bots ✅ | 🟢 Active |
+| [ui](https://github.com/caboose-mcp/ui) | 1 open | CI ✅ | N/A | 🟢 Ready |
+| [waldo](https://github.com/caboose-mcp/waldo) | None | CI ✅ | N/A | 🟢 Active |
+| [extensions](https://github.com/caboose-mcp/extensions) | None | Code review ✅ | N/A | 🟢 Ready |
+| [meml](https://github.com/caboose-mcp/meml) | None | No runs | N/A | ⚪ Idle |
+| [app](https://github.com/caboose-mcp/app) (private) | None | Build failed ❌ | N/A | 🔴 Blocked |
+
+### Open PRs
+
+- **ui**: [fix: remove all Auth Portal and Changelog references](https://github.com/caboose-mcp/ui/pull/29)
 
 ### Action Items
 
+- [ ] Review and merge ui PR #29
+- [ ] Fix app APK build failures (private repo)
 - [ ] Set up CI workflows for meml
 
 > Last updated: 2026-04-03
