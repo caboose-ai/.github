@@ -5,7 +5,7 @@
 <h1 align="center">⚙️ caboose-mcp</h1>
 
 <p align="center">
-  Open-source tools for AI-assisted development — MCP servers, language tooling, and more.
+  Open-source experiments in AI tooling and developer experience.
 </p>
 
 ---
