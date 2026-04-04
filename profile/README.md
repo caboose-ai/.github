@@ -14,17 +14,16 @@
 
 | Repository | PRs | Last Build | Last Deploy | Status |
 |-----------|-----|-----------|------------|--------|
-| [**fafb**](https://github.com/caboose-mcp/fafb) | None | Docker (in progress) | Deploy Bots ✅ | 🟡 In Progress |
+| [**fafb**](https://github.com/caboose-mcp/fafb) | None | Security Scan ✅ | Deploy Bots ✅ | 🟢 Active |
 | [**ui**](https://github.com/caboose-mcp/ui) | [1 open](https://github.com/caboose-mcp/ui/pulls) | CI ✅ | N/A | 🟢 Ready |
+| [**waldo**](https://github.com/caboose-mcp/waldo) | None | CI ✅ | N/A | 🟢 Active |
+| [**extensions**](https://github.com/caboose-mcp/extensions) | None | Code review ✅ | N/A | 🟢 Ready |
 | [**meml**](https://github.com/caboose-mcp/meml) | None | No runs | N/A | ⚪ Idle |
-| [**extensions**](https://github.com/caboose-mcp/extensions) | [2 open](https://github.com/caboose-mcp/extensions/pulls) | Code review ✅ | N/A | 🟡 WIP Testing |
-| [**app**](https://github.com/caboose-mcp/app) (private) | None | Build failed ❌ | N/A | 🔴 WIP Testing |
+| [**app**](https://github.com/caboose-mcp/app) (private) | None | Build failed ❌ | N/A | 🔴 Blocked |
 
 ### 📋 Open PRs
 
 - **ui**: [fix: remove all Auth Portal and Changelog references](https://github.com/caboose-mcp/ui/pull/29)
-- **extensions**: [fix(vscode-fafb): address PR review — race condition, SSE state, UX, type safety, lint, docs](https://github.com/caboose-mcp/extensions/pull/2)
-- **extensions**: [feat: add vscode-fafb VS Code extension](https://github.com/caboose-mcp/extensions/pull/1)
 
 ### 🔗 Quick Links
 
@@ -41,6 +40,9 @@ The caboose-mcp monorepo. Contains the core MCP server (Go 1.24) and accompanyin
 
 ### [🎨 ui](https://github.com/caboose-mcp/ui)
 React/Vite/Tailwind frontend for caboose-mcp — browse tools, view changelogs, and try the sandbox. Deployed to [ui.mcp.chrismarasco.io](https://ui.mcp.chrismarasco.io).
+
+### [🎭 waldo](https://github.com/caboose-mcp/waldo)
+Persistent persona system for AI tools. Define your voice, tone, and style once — then apply it across Claude Code, Cursor, ChatGPT, Gemini, and more.
 
 ### [🔌 extensions](https://github.com/caboose-mcp/extensions)
 VS Code extensions and language tooling integrations. Current: `vscode-fafb` for MCP server integration.
