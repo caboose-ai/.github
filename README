@@ -6,6 +6,7 @@ Welcome to the caboose-mcp organization. This is the central repository for orga
 
 | Repo | PRs | Last Build | Status |
 |------|-----|-----------|--------|
+| [mcp-server](https://github.com/caboose-mcp/mcp-server) | None | No runs | ⚪ New |
 | [waldo](https://github.com/caboose-mcp/waldo) | None | CI ✅ | 🟢 Active |
 | [meml](https://github.com/caboose-mcp/meml) | None | No runs | ⚪ Idle |
 
