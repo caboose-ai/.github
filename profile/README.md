@@ -14,6 +14,7 @@
 
 | Repository | PRs | Last Build | Status |
 |-----------|-----|-----------|--------|
+| [**mcp-server**](https://github.com/caboose-mcp/mcp-server) | None | No runs | ⚪ New |
 | [**waldo**](https://github.com/caboose-mcp/waldo) | None | CI ✅ | 🟢 Active |
 | [**meml**](https://github.com/caboose-mcp/meml) | None | No runs | ⚪ Idle |
 
@@ -26,6 +27,9 @@
 ---
 
 ## 📦 Projects
+
+### [🔧 mcp-server](https://github.com/caboose-mcp/mcp-server)
+MCP server implementation in Go.
 
 ### [🎭 waldo](https://github.com/caboose-mcp/waldo)
 Persistent persona system for AI tools. Define your voice, tone, and style once — then apply it across Claude Code, Cursor, ChatGPT, Gemini, and more.

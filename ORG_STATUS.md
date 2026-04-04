@@ -6,12 +6,17 @@
 
 | Repo | PRs | Last Build | Status |
 |------|-----|-----------|--------|
+| [mcp-server](https://github.com/caboose-mcp/mcp-server) | None | No runs | ⚪ New |
 | [waldo](https://github.com/caboose-mcp/waldo) | None | CI ✅ | 🟢 Active |
 | [meml](https://github.com/caboose-mcp/meml) | None | No runs | ⚪ Idle |
 
 ---
 
 ## Detailed Status
+
+### mcp-server
+- **Open PRs**: None
+- **Last Build**: No workflow runs
 
 ### waldo
 - **Open PRs**: None
