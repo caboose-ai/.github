@@ -6,15 +6,15 @@ Welcome to the Caboose AI organization profile repository. This repo holds organ
 
 > Last updated: 2026-05-10. Data was manually checked against the public `caboose-ai` GitHub organization.
 
-| Repo | Focus | Language | PRs | Last Build | Status |
-|------|-------|----------|-----|------------|--------|
-| [caboose-ai.io](https://github.com/caboose-ai/caboose-ai.io) | Self-hosted homelab infrastructure stack and CLI tooling | Go | None | CI ✅ | 🟢 Active |
-| [ai-skills](https://github.com/caboose-ai/ai-skills) | Reusable Claude/Codex skills | Python | None | No runs | 🟢 Active |
-| [homebrew-tap](https://github.com/caboose-ai/homebrew-tap) | Homebrew formulae for Caboose AI CLIs | Ruby | None | No runs | 🟢 Active |
-| [mcp-server](https://github.com/caboose-ai/mcp-server) | Go MCP server and REST API | Go | 1 | Addressing comment on PR #8 ✅ | 🟢 Active |
-| [waldo](https://github.com/caboose-ai/waldo) | Persistent AI-tool persona system | Go | None | Pages build/deploy ✅ | 🟢 Active |
-| [meml](https://github.com/caboose-ai/meml) | Emoji-first configuration language | Go | None | No runs | ⚪ Needs CI |
-| [.github](https://github.com/caboose-ai/.github) | Organization profile and docs | Markdown | None | Copilot code review ✅ | 🟢 Active |
+| Repo | Focus | Language | Open PRs | Last Build | Status | Notes |
+|------|-------|----------|----------|------------|--------|-------|
+| [caboose-ai.io](https://github.com/caboose-ai/caboose-ai.io) | Self-hosted homelab infrastructure stack and CLI tooling | Go | None | CI ✅ | 🟢 Active | - |
+| [ai-skills](https://github.com/caboose-ai/ai-skills) | Reusable Claude/Codex skills | Python | None | No runs | 🟢 Active | - |
+| [homebrew-tap](https://github.com/caboose-ai/homebrew-tap) | Homebrew formulae for Caboose AI CLIs | Ruby | None | No runs | 🟢 Active | - |
+| [mcp-server](https://github.com/caboose-ai/mcp-server) | Go MCP server and REST API | Go | 1 | No runs | 🟢 Active | PR #8 addressing review comments |
+| [waldo](https://github.com/caboose-ai/waldo) | Persistent AI-tool persona system | Go | None | Pages build/deploy ✅ | 🟢 Active | - |
+| [meml](https://github.com/caboose-ai/meml) | Emoji-first configuration language | Go | None | No runs | ⚪ Needs CI | CI setup needed |
+| [.github](https://github.com/caboose-ai/.github) | Organization profile and docs | Markdown | None | No runs | 🟢 Active | PR #12 in review |
 
 ## Repository Descriptions
 

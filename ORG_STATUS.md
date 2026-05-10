@@ -6,15 +6,15 @@
 
 ## Repository Status Overview
 
-| Repo | Focus | Language | Open PRs | Last Build | Status |
-|------|-------|----------|----------|------------|--------|
-| [caboose-ai.io](https://github.com/caboose-ai/caboose-ai.io) | Homelab infrastructure stack and CLI tooling | Go | None | CI ✅ (2026-05-10) | 🟢 Active |
-| [ai-skills](https://github.com/caboose-ai/ai-skills) | Reusable Claude/Codex skills | Python | None | No runs | 🟢 Active |
-| [homebrew-tap](https://github.com/caboose-ai/homebrew-tap) | Homebrew tap for Caboose AI tools | Ruby | None | No runs | 🟢 Active |
-| [mcp-server](https://github.com/caboose-ai/mcp-server) | Go MCP server and REST API | Go | 1 | Addressing comment on PR #8 ✅ (2026-05-08) | 🟢 Active |
-| [waldo](https://github.com/caboose-ai/waldo) | Persistent persona system for AI tools | Go | None | Pages build/deploy ✅ (2026-04-18) | 🟢 Active |
-| [meml](https://github.com/caboose-ai/meml) | Emoji-first configuration language | Go | None | No runs | ⚪ Needs CI |
-| [.github](https://github.com/caboose-ai/.github) | Organization profile and documentation | Markdown | None | Copilot code review ✅ (2026-03-24) | 🟢 Active |
+| Repo | Focus | Language | Open PRs | Last Build | Status | Notes |
+|------|-------|----------|----------|------------|--------|-------|
+| [caboose-ai.io](https://github.com/caboose-ai/caboose-ai.io) | Homelab infrastructure stack and CLI tooling | Go | None | CI ✅ (2026-05-10) | 🟢 Active | - |
+| [ai-skills](https://github.com/caboose-ai/ai-skills) | Reusable Claude/Codex skills | Python | None | No runs | 🟢 Active | - |
+| [homebrew-tap](https://github.com/caboose-ai/homebrew-tap) | Homebrew tap for Caboose AI tools | Ruby | None | No runs | 🟢 Active | - |
+| [mcp-server](https://github.com/caboose-ai/mcp-server) | Go MCP server and REST API | Go | 1 | No runs | 🟢 Active | PR #8 addressing review comments |
+| [waldo](https://github.com/caboose-ai/waldo) | Persistent persona system for AI tools | Go | None | Pages build/deploy ✅ (2026-04-18) | 🟢 Active | - |
+| [meml](https://github.com/caboose-ai/meml) | Emoji-first configuration language | Go | None | No runs | ⚪ Needs CI | CI setup needed |
+| [.github](https://github.com/caboose-ai/.github) | Organization profile and documentation | Markdown | None | No runs | 🟢 Active | PR #12 in review |
 
 ---
 
@@ -42,7 +42,8 @@
 - **Purpose**: Model Context Protocol server written in Go, plus a PostgreSQL-backed REST API.
 - **Current tools**: `calculate` and `dad_joke` over MCP stdio and companion HTTP surfaces.
 - **Open PRs**: 1
-- **Last Build**: Addressing comment on PR #8 ✅ (2026-05-08)
+- **Last Build**: No workflow runs found
+- **Notes**: PR #8 is currently addressing review comments.
 
 ### waldo
 - **Purpose**: Persistent persona system for AI tools.
@@ -60,7 +61,8 @@
 - **Purpose**: Organization-level profile, documentation, and status snapshots.
 - **Future role**: Host or feed the generated live organization status board.
 - **Open PRs**: None
-- **Last Build**: Copilot code review ✅ (2026-03-24)
+- **Last Build**: No workflow runs found
+- **Notes**: PR #12 is currently in review.
 
 ---
 
