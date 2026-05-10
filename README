@@ -1,17 +1,42 @@
-# caboose-mcp Organization
+# Caboose AI Organization
 
-Welcome to the caboose-mcp organization. This is the central repository for organization-level configuration and documentation.
+Welcome to the Caboose AI organization profile repository. This repo holds organization-level documentation, the public GitHub profile, and manual status snapshots while we build toward a live status board.
 
 ## Repository Status
 
-| Repo | PRs | Last Build | Status |
-|------|-----|-----------|--------|
-| [mcp-server](https://github.com/caboose-mcp/mcp-server) | None | No runs | ⚪ New |
-| [waldo](https://github.com/caboose-mcp/waldo) | None | CI ✅ | 🟢 Active |
-| [meml](https://github.com/caboose-mcp/meml) | None | No runs | ⚪ Idle |
+> Last updated: 2026-05-10. Data was manually checked against the public `caboose-ai` GitHub organization.
 
-### Action Items
+| Repo | Focus | Language | Open PRs | Last Build | Status | Notes |
+|------|-------|----------|----------|------------|--------|-------|
+| [caboose-ai.io](https://github.com/caboose-ai/caboose-ai.io) | Self-hosted homelab infrastructure stack and CLI tooling | Go | None | CI ✅ | 🟢 Active | - |
+| [ai-skills](https://github.com/caboose-ai/ai-skills) | Reusable Claude/Codex skills | Python | None | No runs | 🟢 Active | - |
+| [homebrew-tap](https://github.com/caboose-ai/homebrew-tap) | Homebrew formulae for Caboose AI CLIs | Ruby | None | No runs | 🟢 Active | - |
+| [mcp-server](https://github.com/caboose-ai/mcp-server) | Go MCP server and REST API | Go | 1 | No runs | 🟢 Active | PR #8 addressing review comments |
+| [waldo](https://github.com/caboose-ai/waldo) | Persistent AI-tool persona system | Go | None | Pages build/deploy ✅ | 🟢 Active | - |
+| [meml](https://github.com/caboose-ai/meml) | Emoji-first configuration language | Go | None | No runs | ⚪ Needs CI | CI setup needed |
+| [.github](https://github.com/caboose-ai/.github) | Organization profile and docs | Markdown | None | No runs | 🟢 Active | PR #12 in review |
 
-- [ ] Set up CI workflows for meml
+## Repository Descriptions
 
-> Last updated: 2026-04-03
+- **caboose-ai.io** — Go monorepo for the Caboose AI homelab, including Authentik SSO, Forgejo, Woodpecker CI, Grafana, Open WebUI, SonarQube, Mattermost, Ghost, and related operational services.
+- **ai-skills** — Reusable Claude/Codex skills published by Caboose AI, starting with the maximum-effort status line skill.
+- **homebrew-tap** — Homebrew tap that packages Caboose AI CLI tools from tagged releases.
+- **mcp-server** — Go Model Context Protocol server with a companion PostgreSQL-backed REST API and example tools.
+- **waldo** — Persistent persona system for defining and reusing AI-assistant voice, tone, and style across multiple tools.
+- **meml** — MEML/EML parser and toolchain for an emoji-first configuration language.
+- **.github** — Organization metadata, profile content, and status documentation.
+
+## Live Status Board Direction
+
+This repository is currently a manual source of truth. The next version should generate status data from GitHub automatically and surface:
+
+- Open pull requests and issues by repository.
+- Latest workflow run name, conclusion, and timestamp.
+- Default branch, latest release, and recent push time.
+- Simple status labels that distinguish active, idle, archived, and needs-attention repositories.
+
+## Quick Links
+
+- [Organization repositories](https://github.com/orgs/caboose-ai/repositories)
+- [Open issues](https://github.com/search?q=org%3Acaboose-ai+is%3Aissue+is%3Aopen&type=issues)
+- [Open pull requests](https://github.com/search?q=org%3Acaboose-ai+is%3Apr+is%3Aopen&type=pullrequests)
