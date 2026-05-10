@@ -187,6 +187,6 @@ This allows persona configuration as a first-class language feature with full em
 
 ## See Also
 
-- 🎭 **MEML Project**: https://github.com/caboose-mcp/meml
+- 🎭 **MEML Project**: https://github.com/caboose-ai/meml
 - 📚 **JSON Schema**: `.personarc.schema.json`
 - 📋 **Example Config**: `.personarc.example`
