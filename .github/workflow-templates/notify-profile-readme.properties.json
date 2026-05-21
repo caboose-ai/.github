@@ -1,0 +1,8 @@
+{
+  "name": "Notify profile README",
+  "description": "Dispatches a profile README refresh when this repository updates main.",
+  "iconName": "notify-profile-readme",
+  "categories": [
+    "Automation"
+  ]
+}

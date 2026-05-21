@@ -1,0 +1,57 @@
+name: Update profile README
+
+on:
+  repository_dispatch:
+    types:
+      - repo-main-updated
+  workflow_dispatch:
+    inputs:
+      source_repository:
+        description: Optional owner/repo to include in this refresh
+        required: false
+        type: string
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: false
+
+jobs:
+  update-profile-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Build manual dispatch payload
+        if: github.event_name == 'workflow_dispatch' && inputs.source_repository != ''
+        run: |
+          cat > "$RUNNER_TEMP/manual-event.json" <<JSON
+          {
+            "client_payload": {
+              "repository": {
+                "full_name": "${{ inputs.source_repository }}"
+              }
+            }
+          }
+          JSON
+          echo "PROFILE_EVENT_PATH=$RUNNER_TEMP/manual-event.json" >> "$GITHUB_ENV"
+
+      - name: Refresh generated repository block
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_README_TOKEN || github.token }}
+          PROFILE_SOURCE_REPOS: ${{ vars.PROFILE_SOURCE_REPOS || 'caboose-ai/caboose-ai.io,caboose-ai/ai-skills,caboose-ai/homebrew-tap,caboose-ai/mcp-server,caboose-ai/waldo,caboose-ai/meml,caboose-ai/.github' }}
+        run: python scripts/update_profile_readme.py
+
+      - name: Commit README update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update profile README repository activity"
+          file_pattern: profile/README.md
+          commit_user_name: caboose-ai-profile-bot
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
