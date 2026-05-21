@@ -16,9 +16,9 @@ Open `index.html` in a browser from the project folder.
 
 ## Pages
 
-- [Workflow Health Board](Workflow-Health-Board)
-- [Time Formatting](Time-Formatting)
-- [Issue Count Model](Issue-Count-Model)
+- [Workflow Health Board](Workflow-Health-Board.md)
+- [Time Formatting](Time-Formatting.md)
+- [Issue Count Model](Issue-Count-Model.md)
 
 ## Publishing To GitHub Wiki
 
