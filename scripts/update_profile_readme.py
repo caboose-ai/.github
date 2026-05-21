@@ -121,7 +121,7 @@ def render_block(repositories: list[dict[str, Any]], source_event: str | None) -
     lines = [
         START_MARKER,
         "",
-        "## Repository activity",
+        "### Activity Snapshot",
         "",
         f"_Last refreshed: {now}._",
         "",
@@ -143,34 +143,41 @@ def render_block(repositories: list[dict[str, Any]], source_event: str | None) -
 
     lines.extend(
         [
-            "| Repository | Status | Last push | Default branch |",
-            "| --- | --- | --- | --- |",
+            "| Repository | Language | Visibility | Last push | Default branch |",
+            "| --- | --- | --- | --- | --- |",
         ]
     )
 
     for repo in sorted(repositories, key=sort_timestamp, reverse=True):
-        visibility = "private" if repo["private"] else "public"
-        archived = ", archived" if repo["archived"] else ""
-        language = f", {repo['language']}" if repo.get("language") else ""
-        status = f"{visibility}{archived}{language}"
-        branch = f"`{repo['default_branch']}` @ `{short_sha(repo.get('branch_sha'))}`"
-        description_text = escape_markdown_table_text(repo["description"]) if repo["description"] else ""
-        description = f"<br>{description_text}" if description_text else ""
-        name = f"[`{repo['full_name']}`]({repo['html_url']}){description}"
+        visibility = "Private" if repo["private"] else "Public"
+        if repo["archived"]:
+            visibility = f"{visibility} (Archived)"
+
+        language = repo.get("language") or "-"
+        branch = f"`{repo['default_branch']}` (`{short_sha(repo.get('branch_sha'))}`)"
+        name = f"[`{repo['full_name']}`]({repo['html_url']})"
+
         lines.append(
-            f"| {name} | {status} | {friendly_date(repo.get('pushed_at'))} | {branch} |"
+            f"| {name} | {language} | {visibility} | {friendly_date(repo.get('pushed_at'))} | {branch} |"
         )
 
-    lines.extend(["", END_MARKER, ""])
+    lines.extend(["", "<details>", "<summary>Repository descriptions</summary>", ""])
+
+    for repo in sorted(repositories, key=sort_timestamp, reverse=True):
+        description = escape_markdown_text(repo["description"]) if repo["description"] else "No description set."
+        lines.append(f"- [`{repo['full_name']}`]({repo['html_url']}): {description}")
+
+    lines.extend(["", "</details>", "", END_MARKER, ""])
     return "\n".join(lines)
 
 
-def escape_markdown_table_text(value: str) -> str:
+def escape_markdown_text(value: str) -> str:
     return (
-        value.replace("|", "\\|")
-        .replace("\r\n", "<br>")
-        .replace("\n", "<br>")
-        .replace("\r", "<br>")
+        value.replace("\r\n", " ")
+        .replace("\n", " ")
+        .replace("\r", " ")
+        .replace("|", "\\|")
+        .strip()
     )
 
 
