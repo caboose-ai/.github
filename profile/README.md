@@ -34,29 +34,29 @@
 
 ### Activity Snapshot
 
-_Last refreshed: 2026-05-21 03:23 UTC._
+_Last refreshed: 2026-05-21 05:06 UTC._
 
-_Most recent trigger: `caboose-ai/meml`._
+_Most recent trigger: `caboose-ai/mcp-server`._
 
 | Repository | Language | Visibility | Last push | Default branch |
 | --- | --- | --- | --- | --- |
+| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | TypeScript | Public | 2026-05-21 05:06 UTC | `main` (`0a12bf3`) |
+| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | Go | Public | 2026-05-21 04:56 UTC | `main` (`c823a7c`) |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | Python | Public | 2026-05-21 03:28 UTC | `main` (`9a7e704`) |
 | [`caboose-ai/meml`](https://github.com/caboose-ai/meml) | Go | Public | 2026-05-21 03:22 UTC | `main` (`909155d`) |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | Python | Public | 2026-05-21 03:22 UTC | `main` (`8c89b11`) |
-| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | Go | Public | 2026-05-21 03:18 UTC | `main` (`c823a7c`) |
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 2026-05-21 03:17 UTC | `main` (`c49c459`) |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 2026-05-21 03:17 UTC | `main` (`bd42724`) |
-| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | Go | Public | 2026-05-21 03:17 UTC | `main` (`71b7c39`) |
 | [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Go | Public | 2026-05-21 03:17 UTC | `main` (`110252c`) |
 
 <details>
 <summary>Repository descriptions</summary>
 
-- [`caboose-ai/meml`](https://github.com/caboose-ai/meml): EML - Emoji Markup Language: a config language with first-class emoji support
-- [`caboose-ai/.github`](https://github.com/caboose-ai/.github): No description set.
+- [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server): MCP server
 - [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io): No description set.
+- [`caboose-ai/.github`](https://github.com/caboose-ai/.github): No description set.
+- [`caboose-ai/meml`](https://github.com/caboose-ai/meml): EML — Emoji Markup Language: a config language with first-class emoji support
 - [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills): Claude Code skills by Caboose AI
 - [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap): Homebrew tap for Caboose AI CLI tools
-- [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server): MCP server
 - [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo): No description set.
 
 </details>
