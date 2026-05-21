@@ -68,18 +68,18 @@ Organization-level profile and documentation repository. For now, it keeps a man
 
 ## Repository activity
 
-_Last refreshed: 2026-05-21 03:18 UTC._
+_Last refreshed: 2026-05-21 03:22 UTC._
 
-_Most recent trigger: `caboose-ai/caboose-ai.io`._
+_Most recent trigger: `caboose-ai/meml`._
 
 | Repository | Status | Last push | Default branch |
 | --- | --- | --- | --- |
+| [`caboose-ai/meml`](https://github.com/caboose-ai/meml)<br>EML — Emoji Markup Language: a config language with first-class emoji support | public, Go | 2026-05-21 03:22 UTC | `main` @ `a162cf8` |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | public, Python | 2026-05-21 03:21 UTC | `main` @ `d9778f6` |
 | [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | public, Go | 2026-05-21 03:18 UTC | `main` @ `c823a7c` |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | public, Python | 2026-05-21 03:18 UTC | `main` @ `88bedf7` |
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills)<br>Claude Code skills by Caboose AI | public, Python | 2026-05-21 03:17 UTC | `main` @ `c49c459` |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap)<br>Homebrew tap for Caboose AI CLI tools | public, Ruby | 2026-05-21 03:17 UTC | `main` @ `bd42724` |
 | [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server)<br>MCP server | public, Go | 2026-05-21 03:17 UTC | `main` @ `71b7c39` |
 | [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | public, Go | 2026-05-21 03:17 UTC | `main` @ `110252c` |
-| [`caboose-ai/meml`](https://github.com/caboose-ai/meml)<br>EML — Emoji Markup Language: a config language with first-class emoji support | public, Go | 2026-05-21 03:17 UTC | `main` @ `0e8fdab` |
 
 <!-- repo-status:end -->
