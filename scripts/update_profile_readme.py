@@ -154,7 +154,8 @@ def render_block(repositories: list[dict[str, Any]], source_event: str | None) -
         language = f", {repo['language']}" if repo.get("language") else ""
         status = f"{visibility}{archived}{language}"
         branch = f"`{repo['default_branch']}` @ `{short_sha(repo.get('branch_sha'))}`"
-        description = f"<br>{repo['description']}" if repo["description"] else ""
+        description_text = escape_markdown_table_text(repo["description"]) if repo["description"] else ""
+        description = f"<br>{description_text}" if description_text else ""
         name = f"[`{repo['full_name']}`]({repo['html_url']}){description}"
         lines.append(
             f"| {name} | {status} | {friendly_date(repo.get('pushed_at'))} | {branch} |"
@@ -162,6 +163,15 @@ def render_block(repositories: list[dict[str, Any]], source_event: str | None) -
 
     lines.extend(["", END_MARKER, ""])
     return "\n".join(lines)
+
+
+def escape_markdown_table_text(value: str) -> str:
+    return (
+        value.replace("|", "\\|")
+        .replace("\r\n", "<br>")
+        .replace("\n", "<br>")
+        .replace("\r", "<br>")
+    )
 
 
 def replace_generated_block(readme: str, block: str) -> str:

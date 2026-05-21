@@ -2,12 +2,10 @@ name: Notify profile README
 
 on:
   push:
-    branches:
-      - main
 
 jobs:
   notify-profile:
-    if: github.repository != 'caboose-ai/.github'
+    if: github.repository != 'caboose-ai/.github' && github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     steps:
       - name: Dispatch profile README refresh
