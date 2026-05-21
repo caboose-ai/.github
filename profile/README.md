@@ -70,17 +70,16 @@ Organization-level profile and documentation repository. For now, it keeps a man
 
 _Last refreshed: 2026-05-21 03:17 UTC._
 
-_Most recent trigger: `caboose-ai/meml`._
+_Most recent trigger: `caboose-ai/mcp-server`._
 
 | Repository | Status | Last push | Default branch |
 | --- | --- | --- | --- |
+| [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills)<br>Claude Code skills by Caboose AI | public, Python | 2026-05-21 03:17 UTC | `main` @ `c49c459` |
+| [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap)<br>Homebrew tap for Caboose AI CLI tools | public, Ruby | 2026-05-21 03:17 UTC | `main` @ `bd42724` |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | public, Python | 2026-05-21 03:17 UTC | `main` @ `d41b1d3` |
+| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server)<br>MCP server | public, Go | 2026-05-21 03:17 UTC | `main` @ `71b7c39` |
 | [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | public, Go | 2026-05-21 03:17 UTC | `main` @ `110252c` |
 | [`caboose-ai/meml`](https://github.com/caboose-ai/meml)<br>EML — Emoji Markup Language: a config language with first-class emoji support | public, Go | 2026-05-21 03:17 UTC | `main` @ `0e8fdab` |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | public, Python | 2026-05-21 03:16 UTC | `main` @ `299bc69` |
-| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server)<br>MCP server | public, Go | 2026-05-21 03:00 UTC | `main` @ `531a234` |
-| [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap)<br>Homebrew tap for Caboose AI CLI tools | public, Ruby | 2026-05-21 02:58 UTC | `main` @ `ebe1242` |
-| [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills)<br>Claude Code skills by Caboose AI | public, Python | 2026-05-21 02:58 UTC | `main` @ `b44081a` |
 | [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | public, Go | 2026-05-21 02:57 UTC | `main` @ `6925c9c` |
 
 <!-- repo-status:end -->
-
