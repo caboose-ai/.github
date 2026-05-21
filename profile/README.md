@@ -2,84 +2,70 @@
   <img src="logo.png" alt="Caboose AI logo" width="180" />
 </p>
 
-<h1 align="center">🚂 Caboose AI</h1>
+<h1 align="center">Caboose AI</h1>
 
 <p align="center">
   Open-source AI tooling, homelab infrastructure, and developer-experience experiments.
 </p>
 
----
-
-## 📊 Organization Snapshot
-
-> Manually refreshed on 2026-05-10. This is a lightweight snapshot while we work toward a live status board.
-
-| Repository | Focus | Language | Open PRs | Last Build | Status | Notes |
-|-----------|-------|----------|----------|------------|--------|-------|
-| [**caboose-ai.io**](https://github.com/caboose-ai/caboose-ai.io) | Self-hosted homelab infrastructure stack and CLI tooling | Go | None | CI ✅ | 🟢 Active | - |
-| [**ai-skills**](https://github.com/caboose-ai/ai-skills) | Reusable Claude/Codex skills published by Caboose AI | Python | None | No runs | 🟢 Active | - |
-| [**homebrew-tap**](https://github.com/caboose-ai/homebrew-tap) | Homebrew formulae for Caboose AI CLI tools | Ruby | None | No runs | 🟢 Active | - |
-| [**mcp-server**](https://github.com/caboose-ai/mcp-server) | Go MCP server and companion REST API | Go | 1 | No runs | 🟢 Active | PR #8 addressing review comments |
-| [**waldo**](https://github.com/caboose-ai/waldo) | Persistent persona system for AI tools | Go | None | Pages build/deploy ✅ | 🟢 Active | - |
-| [**meml**](https://github.com/caboose-ai/meml) | Emoji-first configuration language parser/toolchain | Go | None | No runs | ⚪ Needs CI | CI setup needed |
-| [**.github**](https://github.com/caboose-ai/.github) | Organization profile, docs, and status snapshots | Markdown | None | No runs | 🟢 Active | PR #12 in review |
-
-### 🔗 Quick Links
-
-- 🏠 [Organization repositories](https://github.com/orgs/caboose-ai/repositories)
-- 📋 [Open issues](https://github.com/search?q=org%3Acaboose-ai+is%3Aissue+is%3Aopen&type=issues)
-- 🔀 [Open pull requests](https://github.com/search?q=org%3Acaboose-ai+is%3Apr+is%3Aopen&type=pullrequests)
+<p align="center">
+  <a href="https://github.com/orgs/caboose-ai/repositories">Repositories</a> |
+  <a href="https://github.com/search?q=org%3Acaboose-ai+is%3Apr+is%3Aopen&type=pullrequests">Open pull requests</a> |
+  <a href="https://github.com/search?q=org%3Acaboose-ai+is%3Aissue+is%3Aopen&type=issues">Open issues</a>
+</p>
 
 ---
 
-## 📦 Repository Map
+## Projects
 
-### [🌐 caboose-ai.io](https://github.com/caboose-ai/caboose-ai.io)
-Go monorepo for the Caboose AI self-hosted homelab stack, including SSO with Authentik and services such as Forgejo, Woodpecker CI, Grafana, Open WebUI, SonarQube, Mattermost, Ghost, and related operational tooling.
+| Repository | Focus | Primary language |
+| --- | --- | --- |
+| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | Self-hosted homelab infrastructure and CLI tooling. | Go |
+| [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Reusable skills for Claude Code and Codex workflows. | Python |
+| [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Homebrew formulae for Caboose AI command-line tools. | Ruby |
+| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | Go MCP server and companion REST API. | Go |
+| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Persistent persona system for AI tooling. | Go |
+| [`caboose-ai/meml`](https://github.com/caboose-ai/meml) | Emoji-first configuration language parser and tooling. | Go |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | Organization profile and automation workflows. | Markdown |
 
-### [🧰 ai-skills](https://github.com/caboose-ai/ai-skills)
-A collection of reusable Claude/Codex skills. The current published skill set includes a maximum-effort status line with dynamic segments and install instructions for agent environments.
-
-### [🍺 homebrew-tap](https://github.com/caboose-ai/homebrew-tap)
-Homebrew tap for distributing Caboose AI command-line tools from tagged releases, including the homelab CLI and MCP-related utilities.
-
-### [🔌 mcp-server](https://github.com/caboose-ai/mcp-server)
-Model Context Protocol server written in Go, paired with a PostgreSQL-backed REST API. It exposes sample tools such as `calculate` and `dad_joke` over MCP stdio and HTTP interfaces.
-
-### [🎭 waldo](https://github.com/caboose-ai/waldo)
-Persistent persona system for AI tools. Define a voice, tone, and style once, then reuse it across Claude Code, Cursor, ChatGPT, Gemini, Codeium, and other agent workflows.
-
-### [😄 meml](https://github.com/caboose-ai/meml)
-MEML/EML explores emoji-first configuration syntax: emoji section decorators, key annotations, emoji keys, and emoji value atoms in a Go parser/toolchain.
-
-### [🏢 .github](https://github.com/caboose-ai/.github)
-Organization-level profile and documentation repository. For now, it keeps a manually refreshed snapshot; eventually it should become or feed a live status board.
-
----
-
-## 🧭 Status Board Roadmap
-
-- [ ] Replace the manual snapshot with generated data from the GitHub API.
-- [ ] Track open PRs, issues, latest workflow conclusions, default branches, and release tags per repository.
-- [ ] Publish the generated dashboard to the organization profile or a dedicated page.
-- [ ] Add scheduled refreshes so the board reflects live organization health.
+## Live Organization Activity
 
 <!-- repo-status:start -->
 
-## Repository activity
+### Activity Snapshot
 
-_Last refreshed: 2026-05-21 03:18 UTC._
+_Last refreshed: 2026-05-21 03:22 UTC._
 
-_Most recent trigger: `caboose-ai/caboose-ai.io`._
+_Most recent trigger: `caboose-ai/meml`._
 
-| Repository | Status | Last push | Default branch |
-| --- | --- | --- | --- |
-| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | public, Go | 2026-05-21 03:18 UTC | `main` @ `c823a7c` |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | public, Python | 2026-05-21 03:18 UTC | `main` @ `88bedf7` |
-| [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills)<br>Claude Code skills by Caboose AI | public, Python | 2026-05-21 03:17 UTC | `main` @ `c49c459` |
-| [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap)<br>Homebrew tap for Caboose AI CLI tools | public, Ruby | 2026-05-21 03:17 UTC | `main` @ `bd42724` |
-| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server)<br>MCP server | public, Go | 2026-05-21 03:17 UTC | `main` @ `71b7c39` |
-| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | public, Go | 2026-05-21 03:17 UTC | `main` @ `110252c` |
-| [`caboose-ai/meml`](https://github.com/caboose-ai/meml)<br>EML — Emoji Markup Language: a config language with first-class emoji support | public, Go | 2026-05-21 03:17 UTC | `main` @ `0e8fdab` |
+| Repository | Language | Visibility | Last push | Default branch |
+| --- | --- | --- | --- | --- |
+| [`caboose-ai/meml`](https://github.com/caboose-ai/meml) | Go | Public | 2026-05-21 03:22 UTC | `main` (`a162cf8`) |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | Python | Public | 2026-05-21 03:21 UTC | `main` (`d9778f6`) |
+| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | Go | Public | 2026-05-21 03:18 UTC | `main` (`c823a7c`) |
+| [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 2026-05-21 03:17 UTC | `main` (`c49c459`) |
+| [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 2026-05-21 03:17 UTC | `main` (`bd42724`) |
+| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | Go | Public | 2026-05-21 03:17 UTC | `main` (`71b7c39`) |
+| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Go | Public | 2026-05-21 03:17 UTC | `main` (`110252c`) |
+
+<details>
+<summary>Repository descriptions</summary>
+
+- [`caboose-ai/meml`](https://github.com/caboose-ai/meml): EML - Emoji Markup Language: a config language with first-class emoji support
+- [`caboose-ai/.github`](https://github.com/caboose-ai/.github): No description set.
+- [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io): No description set.
+- [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills): Claude Code skills by Caboose AI
+- [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap): Homebrew tap for Caboose AI CLI tools
+- [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server): MCP server
+- [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo): No description set.
+
+</details>
 
 <!-- repo-status:end -->
+
+## Current priorities
+
+- [x] Replace the manual snapshot with generated data from the GitHub API.
+- [x] Refresh this board on pushes to `main` in tracked repositories.
+- [ ] Extend the board with workflow health and open issue counts.
+- [ ] Publish a dedicated external status page for Caboose AI services.
