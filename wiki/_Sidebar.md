@@ -1,9 +1,9 @@
 # Workflow Health Board
 
-- [Home](Home)
-- [Workflow Health Board](Workflow-Health-Board)
-- [Time Formatting](Time-Formatting)
-- [Issue Count Model](Issue-Count-Model)
+- [Home](Home.md)
+- [Workflow Health Board](Workflow-Health-Board.md)
+- [Time Formatting](Time-Formatting.md)
+- [Issue Count Model](Issue-Count-Model.md)
 
 ## Project Links
 
