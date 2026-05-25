@@ -34,14 +34,14 @@
 
 ### Activity Snapshot
 
-_Last refreshed: 2026-05-24 19:39 UTC._
+_Last refreshed: 2026-05-25 01:48 UTC._
 
-_Most recent trigger: `caboose-ai/.github`._
+_Most recent trigger: `caboose-ai/caboose-ai.io`._
 
 | Repository | Language | Visibility | Last push | Default branch |
 | --- | --- | --- | --- | --- |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | Python | Public | 2026-05-24 13:58 UTC | `main` (`f922e8d`) |
-| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | Go | Public | 2026-05-21 06:57 UTC | `main` (`6572091`) |
+| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | Go | Public | 2026-05-25 01:48 UTC | `main` (`6e9db52`) |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | Python | Public | 2026-05-24 19:39 UTC | `main` (`0f67a8f`) |
 | [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | TypeScript | Public | 2026-05-21 05:06 UTC | `main` (`0a12bf3`) |
 | [`caboose-ai/meml`](https://github.com/caboose-ai/meml) | Go | Public | 2026-05-21 03:22 UTC | `main` (`909155d`) |
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 2026-05-21 03:17 UTC | `main` (`c49c459`) |
@@ -51,8 +51,8 @@ _Most recent trigger: `caboose-ai/.github`._
 <details>
 <summary>Repository descriptions</summary>
 
-- [`caboose-ai/.github`](https://github.com/caboose-ai/.github): No description set.
 - [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io): No description set.
+- [`caboose-ai/.github`](https://github.com/caboose-ai/.github): No description set.
 - [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server): MCP server
 - [`caboose-ai/meml`](https://github.com/caboose-ai/meml): EML — Emoji Markup Language: a config language with first-class emoji support
 - [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills): Claude Code skills by Caboose AI
