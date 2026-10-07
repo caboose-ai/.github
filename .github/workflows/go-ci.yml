@@ -1,0 +1,28 @@
+name: go-ci
+
+# Reusable Go CI for caboose-ai repos. Call it from the app repo with:
+#
+#   jobs:
+#     ci:
+#       uses: caboose-ai/.github/.github/workflows/go-ci.yml@main
+
+on:
+  workflow_call:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+      - name: gofmt
+        run: test -z "$(gofmt -l .)" || (gofmt -l . && exit 1)
+      - name: vet
+        run: go vet ./...
+      - name: test
+        run: go test -race ./...
+      - name: build
+        run: go build ./...
