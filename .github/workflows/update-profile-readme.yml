@@ -37,6 +37,11 @@ jobs:
           path: caboose
           token: ${{ secrets.PROFILE_README_TOKEN || github.token }}
 
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: caboose/go.mod
+
       - name: Build manual dispatch payload
         if: github.event_name == 'workflow_dispatch' && inputs.source_repository != ''
         run: |
@@ -55,7 +60,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PROFILE_README_TOKEN || github.token }}
           PROFILE_SOURCE_REPOS: ${{ vars.PROFILE_SOURCE_REPOS || 'caboose-ai/caboose-ai.io,caboose-ai/ai-skills,caboose-ai/homebrew-tap,caboose-ai/mcp-server,caboose-ai/waldo,caboose-ai/meml,caboose-ai/.github' }}
-        run: python scripts/update_profile_readme.py
+        run: cd caboose && go run ./cmd/caboose board -readme ../profile/README.md
 
       - name: Commit README update
         uses: stefanzweifel/git-auto-commit-action@v5
