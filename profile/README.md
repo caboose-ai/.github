@@ -66,4 +66,4 @@ _Most recent trigger: `caboose-ai/.github`._
 - [x] Replace the manual snapshot with generated data from the GitHub API.
 - [x] Refresh this board on pushes to `main` in tracked repositories.
 - [x] Extend the board with workflow health and open issue counts.
-- [ ] Publish a dedicated external status page for Caboose AI services.
+- [x] Publish a dedicated external status page for Caboose AI services — [status.caboose-ai.io](https://status.caboose-ai.io).
