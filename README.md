@@ -12,4 +12,7 @@ The rendered organization profile is visible at:
 
 - [caboose-ai](https://github.com/caboose-ai)
 
-The profile README contains the manual organization status snapshot while the live status board is being built.
+The `repo-status` block in the profile README is rendered by
+`scripts/update_profile_readme.py`, with a byte-identical Go port in
+[`caboose-ai/caboose`](https://github.com/caboose-ai/caboose) (`caboose board`)
+ready to take over — see that repo's `docs/pending/` for the workflow switch.
