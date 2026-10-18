@@ -34,25 +34,25 @@
 
 ### Activity Snapshot
 
-_Last refreshed: 2026-10-18 20:41 UTC._
+_Last refreshed: 2026-10-18 21:09 UTC._
 
 _Most recent trigger: `caboose-ai/.github`._
 
-| Repository | Language | Visibility | Last push | Default branch |
-| --- | --- | --- | --- | --- |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 2026-10-18 15:51 UTC | `main` (`1439753`) |
-| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | HTML | Public | 2026-10-18 06:17 UTC | `main` (`5f690a6`) |
-| [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 2026-10-07 04:09 UTC | `main` (`82935bc`) |
-| [`caboose-ai/meml`](https://github.com/caboose-ai/meml) | Go | Public | 2026-10-07 04:09 UTC | `main` (`77aaa96`) |
-| [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 2026-10-07 04:09 UTC | `main` (`fb3286f`) |
-| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | TypeScript | Public (Archived) | 2026-05-21 05:06 UTC | `main` (`0a12bf3`) |
-| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Go | Public (Archived) | 2026-05-21 03:17 UTC | `main` (`110252c`) |
+| Repository | Language | Visibility | Open | CI | Last push | Default branch |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | HTML | Public | 0 | ✅ pass | 2026-10-18 21:08 UTC | `main` (`9318411`) |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 0 | ⏳ running | 2026-10-18 21:08 UTC | `main` (`71bdbe1`) |
+| [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 0 | ❌ fail | 2026-10-07 04:09 UTC | `main` (`82935bc`) |
+| [`caboose-ai/meml`](https://github.com/caboose-ai/meml) | Go | Public | 0 | ❌ fail | 2026-10-07 04:09 UTC | `main` (`77aaa96`) |
+| [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 0 | ❌ fail | 2026-10-07 04:09 UTC | `main` (`fb3286f`) |
+| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | TypeScript | Public (Archived) | 0 | ✅ pass | 2026-05-21 05:06 UTC | `main` (`0a12bf3`) |
+| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Go | Public (Archived) | 0 | ✅ pass | 2026-05-21 03:17 UTC | `main` (`110252c`) |
 
 <details>
 <summary>Repository descriptions</summary>
 
-- [`caboose-ai/.github`](https://github.com/caboose-ai/.github): Organization profile, live repository status board, and shared GitHub workflows.
 - [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io): Manifests for everything served under caboose-ai.io — a single-node k3s cluster behind a Cloudflare Tunnel.
+- [`caboose-ai/.github`](https://github.com/caboose-ai/.github): Organization profile, live repository status board, and shared GitHub workflows.
 - [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap): Homebrew tap for Caboose AI CLI tools
 - [`caboose-ai/meml`](https://github.com/caboose-ai/meml): EML — Emoji Markup Language: a config language with first-class emoji support
 - [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills): Reusable Claude Code skills published by Caboose AI.
