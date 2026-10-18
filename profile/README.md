@@ -24,8 +24,7 @@
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Reusable skills for Claude Code and Codex workflows. | Python |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Homebrew formulae for Caboose AI command-line tools. | Ruby |
 | [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | Go MCP server and companion REST API. | Go |
-| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Persistent persona system for AI tooling. | Go |
-| [`caboose-ai/meml`](https://github.com/caboose-ai/meml) | Emoji-first configuration language parser and tooling. | Go |
+| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Persistent persona system for AI tools. (archived) | Go |
 | [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | Organization profile and automation workflows. | Markdown |
 
 ## Live Organization Activity
