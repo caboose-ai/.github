@@ -34,19 +34,19 @@
 
 ### Activity Snapshot
 
-_Last refreshed: 2026-10-18 15:51 UTC._
+_Last refreshed: 2026-10-18 20:41 UTC._
 
 _Most recent trigger: `caboose-ai/.github`._
 
 | Repository | Language | Visibility | Last push | Default branch |
 | --- | --- | --- | --- | --- |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 2026-10-18 11:02 UTC | `main` (`e3209e2`) |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 2026-10-18 15:51 UTC | `main` (`1439753`) |
 | [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | HTML | Public | 2026-10-18 06:17 UTC | `main` (`5f690a6`) |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 2026-10-07 04:09 UTC | `main` (`82935bc`) |
 | [`caboose-ai/meml`](https://github.com/caboose-ai/meml) | Go | Public | 2026-10-07 04:09 UTC | `main` (`77aaa96`) |
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 2026-10-07 04:09 UTC | `main` (`fb3286f`) |
-| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | TypeScript | Public | 2026-05-21 05:06 UTC | `main` (`0a12bf3`) |
-| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Go | Public | 2026-05-21 03:17 UTC | `main` (`110252c`) |
+| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | TypeScript | Public (Archived) | 2026-05-21 05:06 UTC | `main` (`0a12bf3`) |
+| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Go | Public (Archived) | 2026-05-21 03:17 UTC | `main` (`110252c`) |
 
 <details>
 <summary>Repository descriptions</summary>
