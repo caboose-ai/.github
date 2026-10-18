@@ -59,7 +59,7 @@ jobs:
       - name: Refresh generated repository block
         env:
           GH_TOKEN: ${{ secrets.PROFILE_README_TOKEN || github.token }}
-          PROFILE_SOURCE_REPOS: ${{ vars.PROFILE_SOURCE_REPOS || 'caboose-ai/caboose-ai.io,caboose-ai/ai-skills,caboose-ai/homebrew-tap,caboose-ai/mcp-server,caboose-ai/waldo,caboose-ai/meml,caboose-ai/.github' }}
+          PROFILE_SOURCE_REPOS: ${{ vars.PROFILE_SOURCE_REPOS || 'caboose-ai/caboose-ai.io,caboose-ai/ai-skills,caboose-ai/homebrew-tap,caboose-ai/mcp-server,caboose-ai/waldo,caboose-ai/.github' }}
         run: cd caboose && go run ./cmd/caboose board -readme ../profile/README.md
 
       - name: Commit README update
