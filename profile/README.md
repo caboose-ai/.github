@@ -34,14 +34,14 @@
 
 ### Activity Snapshot
 
-_Last refreshed: 2026-10-18 03:28 UTC._
+_Last refreshed: 2026-10-18 04:31 UTC._
 
 _Most recent trigger: `caboose-ai/.github`._
 
 | Repository | Language | Visibility | Last push | Default branch |
 | --- | --- | --- | --- | --- |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 2026-10-18 03:27 UTC | `main` (`4908c2e`) |
-| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | HTML | Public | 2026-10-18 01:47 UTC | `main` (`be0ca5c`) |
+| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | HTML | Public | 2026-10-18 04:13 UTC | `main` (`7800633`) |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 2026-10-18 03:28 UTC | `main` (`4bd70eb`) |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 2026-10-07 04:09 UTC | `main` (`82935bc`) |
 | [`caboose-ai/meml`](https://github.com/caboose-ai/meml) | Go | Public | 2026-10-07 04:09 UTC | `main` (`77aaa96`) |
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 2026-10-07 04:09 UTC | `main` (`fb3286f`) |
@@ -51,8 +51,8 @@ _Most recent trigger: `caboose-ai/.github`._
 <details>
 <summary>Repository descriptions</summary>
 
-- [`caboose-ai/.github`](https://github.com/caboose-ai/.github): Organization profile, live repository status board, and shared GitHub workflows.
 - [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io): Manifests for everything served under caboose-ai.io — a single-node k3s cluster behind a Cloudflare Tunnel.
+- [`caboose-ai/.github`](https://github.com/caboose-ai/.github): Organization profile, live repository status board, and shared GitHub workflows.
 - [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap): Homebrew tap for Caboose AI CLI tools
 - [`caboose-ai/meml`](https://github.com/caboose-ai/meml): EML — Emoji Markup Language: a config language with first-class emoji support
 - [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills): Reusable Claude Code skills published by Caboose AI.
