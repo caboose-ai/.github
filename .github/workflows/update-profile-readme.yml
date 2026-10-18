@@ -28,6 +28,15 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v4
 
+      # The block renderer lives in the org brain:
+      # https://github.com/caboose-ai/caboose — `caboose board`.
+      - name: Check out the org brain
+        uses: actions/checkout@v4
+        with:
+          repository: caboose-ai/caboose
+          path: caboose
+          token: ${{ secrets.PROFILE_README_TOKEN || github.token }}
+
       - name: Build manual dispatch payload
         if: github.event_name == 'workflow_dispatch' && inputs.source_repository != ''
         run: |

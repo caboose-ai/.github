@@ -2,12 +2,12 @@
 
 This repository can refresh `profile/README.md` when another repo in the org updates its default branch.
 
-The generated block is currently rendered by `scripts/update_profile_readme.py`.
-The renderer is moving to `caboose board` in
-[`caboose-ai/caboose`](https://github.com/caboose-ai/caboose) — a Go port with
-byte-identical output (verified by diffing a live render). Applying that switch
-needs the `workflow` token scope; the ready-to-apply workflow lives in
-caboose's `docs/pending/`.
+The generated block is rendered by `caboose board` in
+[`caboose-ai/caboose`](https://github.com/caboose-ai/caboose) — the org brain;
+the workflow in `.github/workflows/update-profile-readme.yml` builds and runs
+it. The renderer is a byte-identical Go port of the retired
+`scripts/update_profile_readme.py`, with the same output format, markers,
+env vars, and event handling.
 
 ## Receiver setup in this repo
 
