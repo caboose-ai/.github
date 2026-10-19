@@ -33,14 +33,14 @@
 
 ### Activity Snapshot
 
-_Last refreshed: 2026-10-19 13:11 UTC._
+_Last refreshed: 2026-10-19 22:20 UTC._
 
 _Most recent trigger: `caboose-ai/.github`._
 
 | Repository | Language | Visibility | Open | CI | Last push | Default branch |
 | --- | --- | --- | --- | --- | --- | --- |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 0 | ⏳ running | 2026-10-19 13:11 UTC | `main` (`b080000`) |
 | [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | HTML | Public | 0 | ✅ pass | 2026-10-19 05:11 UTC | `main` (`3ff426e`) |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 0 | ⏳ running | 2026-10-19 04:39 UTC | `main` (`307dbf5`) |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 0 | ❌ fail | 2026-10-07 04:09 UTC | `main` (`82935bc`) |
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 0 | ❌ fail | 2026-10-07 04:09 UTC | `main` (`fb3286f`) |
 | [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | TypeScript | Public (Archived) | 0 | ✅ pass | 2026-05-21 05:06 UTC | `main` (`0a12bf3`) |
@@ -49,8 +49,8 @@ _Most recent trigger: `caboose-ai/.github`._
 <details>
 <summary>Repository descriptions</summary>
 
-- [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io): Manifests for everything served under caboose-ai.io — a single-node k3s cluster behind a Cloudflare Tunnel.
 - [`caboose-ai/.github`](https://github.com/caboose-ai/.github): Organization profile, live repository status board, and shared GitHub workflows.
+- [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io): Manifests for everything served under caboose-ai.io — a single-node k3s cluster behind a Cloudflare Tunnel.
 - [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap): Homebrew tap for Caboose AI CLI tools
 - [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills): Reusable Claude Code skills published by Caboose AI.
 - [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server): TypeScript MCP server for personal agent tooling — discovers skills and creates MCP tool templates over stdio.
