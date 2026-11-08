@@ -1,0 +1,32 @@
+name: Bug report
+description: Something is broken or behaves differently from what the README says.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of the app's `version` command, or the footer. Image tags look like `v0.3.1-ca2`.
+      placeholder: v0.3.1-ca2
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - k3s (caboose-ai.io)
+        - local build
+        - phone / browser
+        - other
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Pod logs (`kubectl -n <ns> logs ...`), console output, or a screenshot. Strip tokens and secrets first.
+      render: shell
