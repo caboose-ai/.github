@@ -33,14 +33,14 @@
 
 ### Activity Snapshot
 
-_Last refreshed: 2026-11-08 13:22 UTC._
+_Last refreshed: 2026-11-08 22:02 UTC._
 
 _Most recent trigger: `caboose-ai/.github`._
 
 | Repository | Language | Visibility | Open | CI | Last push | Default branch |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 1 | ❌ fail | 2026-11-08 08:51 UTC | `main` (`fb3286f`) |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 1 | ⏳ running | 2026-11-08 08:49 UTC | `main` (`9dcf3f4`) |
+| [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 0 | ❌ fail | 2026-11-08 18:17 UTC | `main` (`1d7c7ad`) |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 0 | ⏳ running | 2026-11-08 18:16 UTC | `main` (`049f628`) |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 0 | ❌ fail | 2026-11-08 07:14 UTC | `main` (`6eb9ca6`) |
 | [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | HTML | Public | 0 | ✅ pass | 2026-10-20 06:41 UTC | `main` (`85fa29b`) |
 | [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | TypeScript | Public (Archived) | 0 | ✅ pass | 2026-05-21 05:06 UTC | `main` (`0a12bf3`) |
