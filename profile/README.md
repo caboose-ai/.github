@@ -20,11 +20,8 @@
 
 | Repository | Focus | Primary language |
 | --- | --- | --- |
-| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | Self-hosted homelab infrastructure and CLI tooling. | Go |
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Reusable skills for Claude Code and Codex workflows. | Python |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Homebrew formulae for Caboose AI command-line tools. | Ruby |
-| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | Go MCP server and companion REST API. | Go |
-| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Persistent persona system for AI tools. (archived) | Go |
 | [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | Organization profile and automation workflows. | Markdown |
 
 ## Live Organization Activity
@@ -39,12 +36,9 @@ _Most recent trigger: `caboose-ai/.github`._
 
 | Repository | Language | Visibility | Open | CI | Last push | Default branch |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`caboose-ai/caboose-ai.io`](https://github.com/caboose-ai/caboose-ai.io) | HTML | Public | 0 | ✅ pass | 2026-11-17 16:50 UTC | `main` (`db04251`) |
 | [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 0 | ⏳ running | 2026-11-17 07:53 UTC | `main` (`114e7e0`) |
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 0 | ❌ fail | 2026-11-08 18:17 UTC | `main` (`1d7c7ad`) |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 0 | ❌ fail | 2026-11-08 07:14 UTC | `main` (`6eb9ca6`) |
-| [`caboose-ai/mcp-server`](https://github.com/caboose-ai/mcp-server) | TypeScript | Public (Archived) | 0 | ✅ pass | 2026-05-21 05:06 UTC | `main` (`0a12bf3`) |
-| [`caboose-ai/waldo`](https://github.com/caboose-ai/waldo) | Go | Public (Archived) | 0 | ✅ pass | 2026-05-21 03:17 UTC | `main` (`110252c`) |
 
 <details>
 <summary>Repository descriptions</summary>
