@@ -30,13 +30,13 @@
 
 ### Activity Snapshot
 
-_Last refreshed: 2026-11-20 20:15 UTC._
+_Last refreshed: 2026-11-21 07:03 UTC._
 
 _Most recent trigger: `caboose-ai/.github`._
 
 | Repository | Language | Visibility | Open | CI | Last push | Default branch |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 0 | ⏳ running | 2026-11-20 07:12 UTC | `main` (`2dcf83b`) |
+| [`caboose-ai/.github`](https://github.com/caboose-ai/.github) | - | Public | 0 | ⏳ running | 2026-11-20 20:15 UTC | `main` (`cf7e2d0`) |
 | [`caboose-ai/homebrew-tap`](https://github.com/caboose-ai/homebrew-tap) | Ruby | Public | 0 | ❌ fail | 2026-11-17 23:32 UTC | `main` (`10cf719`) |
 | [`caboose-ai/ai-skills`](https://github.com/caboose-ai/ai-skills) | Python | Public | 0 | ❌ fail | 2026-11-08 18:17 UTC | `main` (`1d7c7ad`) |
 | [`caboose-ai/wow-mcp`](https://github.com/caboose-ai/wow-mcp) | Go | Public | 0 | – | 2026-11-08 07:12 UTC | `main` (`a72df40`) |
